@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    /*padding: 0 80px;*/
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------- Promo section ----------------------------------- */
+.promo {
+    display: inline-block;
+    /*min-height: 100vh;*/
+    min-height: 750px;
+    background: url("../image/head_bg.jpg") center center/cover no-repeat;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logo__link {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 800;
+    color: #FFF;
+    text-transform: uppercase;
+    background: url("../image/logo.png") left center no-repeat;
+    padding-left: 33px;
+}
+
+.logo__link span {
+    font-weight: 400;
+    display: block;
+}
+
+.menu__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item + .menu__item {
+    margin-left: 50px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    line-height: 1.6em;
+    transition: all .3s ease;
+}
+
+.menu__link:hover {
+    color: #000;
+}
+
+.signup {
+    text-decoration: none;
+    color: #FFF;
+    font-size: .8em;
+    line-height: 1.6em;
+    padding: 5px 18px;
+    border: solid 1px #FFF;
+    border-radius: 3px;
+    transition: all .3s ease;
+}
+
+.signup:hover {
+    color: #000;
+    border-color: #000;
+}
+/* ----------------------------------- Promo section ----------------------------------- */
